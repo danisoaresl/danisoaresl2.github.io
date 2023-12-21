@@ -4,50 +4,59 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio_Daniele</title>
-        <link rel="stylesheet" href="style.css">
+        
         <style>@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Poppins:ital,wght@1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
         </style>
-    </head>
-    <body>
-        <header class="header">
-            <img src="imagens/danisoares.jpeg" alt="" class="header_logo">
-            <span id="hamburguer" class="material-symbols-rounded"></span>
-            <nav id="itens_menu" class="header_nav show">
-                <ul id="menu">
-                        <li><a class="btn" href="Home">Home</a></li>
-                        <li><a class="btn" href="Sobre_Mim">Sobre Mim</a></li>
-                        <li><a class="btn" href="Projetos">Projetos</a></li>
-                        <li><a class="btn" href="Contato">Contato</a></li>
-                </ul>
-            </nav>
-            
-        </header>
-        <main>
-            <div class="topo">
-                <strong><h1>Daniele Soares</h1></strong>
-            
-                <h2>MEU PORTFÓLIO</h2>
-            </div>
+        <link rel="stylesheet" href="style.css">
 
-            <img src="imagens/danisoares.jpeg" alt="" class="foto">
-            
-            <div class="sobre_mim">
-                <h3><p>Seja bem-vindo(a)</p></h3>
-                <h3><p>Me chamo Daniele </p></h3>
-
-            </div>
-
-            <section class="fundo_main">
-                <div class="">
-                    <a href="" target="_blank"></a>
-                </div>
-            </section>
-
+        <style>
            
+  
+             </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <section id="header" class="header">
+                <img src="imagens/logo.jpeg" alt="" class="header_logo">
+
+                <span id="hamburguer" class="material-symbols-outlined">
+                    menu
+                </span>
+
+                <nav id="items_menu" class="header_nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre Mim</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+
+            <section id="fundo_main" class="fundo_main"> 
+
+                    <div id="img_circular"   class="foto">
+                      <img src="imagens/danisoares.jpeg" alt="" style="">
+                    </div>
+
+                    <div id="Sobre_Mim" class="Sobre_Mim">
+                        <h1>Daniele Soares</h1>
+
+                        <h2>Meu Portfólio</h2>
+                    </div>
+            </section> 
+
         </main>
-      
+
         <footer>
             <div class="logos_footer">
+                
                 <div>
                     <a href="https://www.linkedin.com/in/danisoaresl/" target="_blank">
                         <img src="imagens/linkedin.png" alt="" class="tamanho">
@@ -57,9 +66,12 @@
                     <a href="https://github.com/danisoaresl" target="_blank">
                         <img src="imagens/github.png" alt="" class="tamanho">
                     </a>
-        <p class ="texto_footer">
-            Elas Na Tech  2023 ♥
-            </p>        
+                </div>
+               
+            </div>
+            <p class="texto_footer">
+                ♥ Elas na Tech 2023 ♥
+            </p>
         </footer>
 
         <script>
@@ -69,13 +81,13 @@
             hamburguer.addEventListener('click', aparecer);
 
             function aparecer (){
-                if (items_menu.style.display == 'block'){
+                if(items_menu.style.display == 'block'){
                     items_menu.classList.remove('show');
                 }else{
                     items_menu.classList.toggle('show');
                 }
                 }
-            
         </script>
+  
     </body>
 </html>
