@@ -4,14 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio_Daniele</title>
-        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <style>@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Poppins:ital,wght@1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
         </style>
         <link rel="stylesheet" href="style.css">
 
-        <style>
-           
-  
+        <style type="text/css">
+            .exemplo-cor{
+                background: #f9f9f9;
+                border: solid 1px #ddd;
+            }
              </style>
 
     </head>
@@ -19,6 +22,7 @@
     <body>
 
         <header>
+            
             <section id="header" class="header">
                 <img src="imagens/logo.jpeg" alt="" class="header_logo">
 
@@ -38,20 +42,71 @@
         </header>
 
         <main>
-
-            <section id="fundo_main" class="fundo_main"> 
-
-                    <div id="img_circular"   class="foto">
-                      <img src="imagens/danisoares.jpeg" alt="" style="">
+            <section class="container">    
+                <div class="row justify-content-left">
+                    <div  class="col-3" > 
+                        <img  id="img_circular" src="imagens/danisoares.jpeg">
+                        
                     </div>
-
-                    <div id="Sobre_Mim" class="Sobre_Mim">
+                    
+                    <div class="col justify-content-center">
+                    <div id="Sobre_Mim">
                         <h1>Daniele Soares</h1>
-
                         <h2>Meu Portfólio</h2>
-                    </div>
-            </section> 
+                        <h3>Apaixonada por programação e tecnologia; Tenho formação em Redes de Computadores e trabalhei como Analista de TI em empresas nacionais e multinacionais. 
 
+                            Recentemente, me formei no Elas Na Tech 2023 em outubro como  Front-End Web Development . Atualmente, estou cursando cursos complementares com foco em HTML5, CSS, JavaScript e Python, com o objetivo de reingressar no mercado de trabalho na área de Engenharia de Software.</h3>
+                    </div>
+                    </div>
+                </div>
+            </section> 
+                
+           <section style="border: solid 1px; height: 400px" class="container-fluid">
+                <div class="row justify-content-around">
+                    <div class="col-3 exemplo-cor">
+                        <img src="imagens/proj1.png" width="230px"> 
+                        Coluna1
+                    </div>
+                    <div class="col-3 exemplo-cor">
+                        Coluna2
+                    </div>
+                    <div class="col-3 exemplo-cor">
+                        Coluna2
+                    </div>
+                </div>
+           </section> 
+           <section style="border: solid 1px; height: 400px" class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-3 exemplo-cor">
+                    Coluna1
+                </div>
+                <div class="col-3 exemplo-cor">
+                    Coluna2
+                </div>
+                <div class="col-3 exemplo-cor">
+                    Coluna2
+                </div>
+            </div>
+       </section> 
+       <section style="border: solid 1px; height: 400px" class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col-3 exemplo-cor">
+                Coluna1
+            </div>
+            <div class="col-3 exemplo-cor">
+                Coluna2
+            </div>
+            <div class="col-3 exemplo-cor">
+                Coluna2
+            </div>
+        </div>
+   </section> 
+
+           <section style="border: solid 1px; height: 400px" class="container">
+            <p>
+
+            </p>
+           </section>
         </main>
 
         <footer>
