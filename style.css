@@ -94,13 +94,13 @@ section{
 
 #Sobre_Mim h1 {
     margin-top: 10px;
-    text-shadow: 4px 4px grey;
+    text-shadow: 4px 4px #b695c0;
     font-size: 90px;
     text-align: center;
 }
 
 #Sobre_Mim h2 {
-    text-shadow: 3px 3px grey;
+    text-shadow: 3px 3px #b695c0;
     font-size: 50px;
    text-align: center;
 }
